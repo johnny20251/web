@@ -42,14 +42,14 @@ export const books: Book[] = [
   {
     id: 1,
     title: "Gotti's Rules",
-    coverImage: "/images/pexels-photo-6373307.jpeg",
+    coverImage: "/images/GNA2Y4utstqY.jpg",
     description: "The untold story of life inside the Gambino crime family, revealing the truth about John Gotti's rise and fall.",
     link: "https://www.amazon.com/Gottis-Rules-Story-Inside-Family/dp/0062346881",
   },
   {
     id: 2,
     title: "Darkest Hour",
-    coverImage: "/images/pexels-photo-2873510.jpeg",
+    coverImage: "/images/qvqTfM0eIlU9.jpg",
     description: "A raw account of survival and redemption through the darkest moments of life in and out of organized crime.",
     link: "#",
   },

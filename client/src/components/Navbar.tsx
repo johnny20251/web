@@ -23,7 +23,6 @@ const Navbar: React.FC = () => {
     { name: 'BOOKS', href: '/books' },
     { name: 'FILM & TV', href: '/media' },
     { name: 'SPEAKING', href: '/speaking' },
-    { name: 'SHOP', href: '/shop' },
   ];
 
   return (

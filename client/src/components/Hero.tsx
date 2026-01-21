@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Parallax Effect */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-60"
-        style={{ backgroundImage: 'url(/images/hero-bg.jpg)' }}
+        style={{ backgroundImage: 'url(/images/john-alite-interview.jpg)' }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/90" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/80" />
