@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
+import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -40,7 +41,7 @@ const Hero: React.FC = () => {
             From the highest ranks of the <span className="text-white font-bold">Gambino Crime Family</span> to a powerful voice for <span className="text-primary font-bold">Redemption & Justice</span>.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-6 justify-center md:justify-start">
+          <div className="flex flex-col md:flex-row gap-6 justify-center md:justify-start mb-10">
             <Link href="/speaking">
               <Button size="lg" className="bg-primary hover:bg-red-700 text-white font-oswald tracking-widest text-lg px-8 py-6 rounded-none border border-primary hover:border-red-500 transition-all duration-300 shadow-[0_0_20px_rgba(193,1,1,0.3)] hover:shadow-[0_0_40px_rgba(193,1,1,0.6)]">
                 BOOK SPEAKING
@@ -51,6 +52,14 @@ const Hero: React.FC = () => {
                 READ THE STORY
               </Button>
             </Link>
+          </div>
+
+          {/* Social Media Links */}
+          <div className="flex gap-6 justify-center md:justify-start">
+            <a href="https://facebook.com/truejohnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300" title="Facebook"><Facebook size={24} /></a>
+            <a href="https://x.com/johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300" title="X (Twitter)"><Twitter size={24} /></a>
+            <a href="https://instagram.com/johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300" title="Instagram"><Instagram size={24} /></a>
+            <a href="https://youtube.com/@johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors duration-300" title="YouTube"><Youtube size={24} /></a>
           </div>
         </motion.div>
       </div>

@@ -32,10 +32,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 font-oswald tracking-widest text-primary">CONNECT</h4>
             <div className="flex space-x-4 mb-6">
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Facebook size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Twitter size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Instagram size={20} /></a>
-              <a href="#" className="text-gray-400 hover:text-primary transition-colors"><Youtube size={20} /></a>
+              <a href="https://facebook.com/truejohnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="Facebook"><Facebook size={20} /></a>
+              <a href="https://x.com/johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="X (Twitter)"><Twitter size={20} /></a>
+              <a href="https://instagram.com/johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="Instagram"><Instagram size={20} /></a>
+              <a href="https://youtube.com/@johnalite" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-primary transition-colors" title="YouTube"><Youtube size={20} /></a>
             </div>
             <a href="mailto:contact@johnalite.com" className="flex items-center text-gray-400 hover:text-white transition-colors font-mono text-sm">
               <Mail size={16} className="mr-2" /> contact@johnalite.com
