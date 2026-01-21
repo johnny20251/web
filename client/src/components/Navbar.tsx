@@ -36,24 +36,24 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/">
-          <a className="text-2xl md:text-3xl font-bold tracking-tighter text-white hover:text-primary transition-colors duration-300 font-oswald uppercase">
+          <span className="text-2xl md:text-3xl font-bold tracking-tighter text-white hover:text-primary transition-colors duration-300 font-oswald uppercase cursor-pointer">
             John <span className="text-primary">Alite</span>
-          </a>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           {navLinks.map((link) => (
             <Link key={link.name} href={link.href}>
-              <a
+              <span
                 className={cn(
-                  'text-sm font-medium tracking-widest hover:text-primary transition-colors duration-300 relative group font-mono',
+                  'text-sm font-medium tracking-widest hover:text-primary transition-colors duration-300 relative group font-mono cursor-pointer',
                   location === link.href ? 'text-primary' : 'text-gray-300'
                 )}
               >
                 {link.name}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-              </a>
+              </span>
             </Link>
           ))}
         </div>
@@ -76,12 +76,12 @@ const Navbar: React.FC = () => {
       >
         {navLinks.map((link) => (
           <Link key={link.name} href={link.href}>
-            <a
-              className="text-2xl font-bold tracking-widest text-white hover:text-primary transition-colors duration-300 font-oswald"
+            <span
+              className="text-2xl font-bold tracking-widest text-white hover:text-primary transition-colors duration-300 font-oswald cursor-pointer"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}
-            </a>
+            </span>
           </Link>
         ))}
       </div>

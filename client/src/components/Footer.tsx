@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-2">
             <Link href="/">
-              <a className="text-3xl font-bold tracking-tighter font-oswald uppercase mb-6 block">
+              <span className="text-3xl font-bold tracking-tighter font-oswald uppercase mb-6 block cursor-pointer">
                 John <span className="text-primary">Alite</span>
-              </a>
+              </span>
             </Link>
             <p className="text-gray-400 max-w-md font-mono text-sm leading-relaxed">
               From the streets to the stage. The official platform of John Alite—author, speaker, and advocate for change.
@@ -21,10 +21,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 font-oswald tracking-widest text-primary">NAVIGATION</h4>
             <ul className="space-y-4 font-mono text-sm text-gray-400">
-              <li><Link href="/biography"><a className="hover:text-white transition-colors">Biography</a></Link></li>
-              <li><Link href="/books"><a className="hover:text-white transition-colors">Books</a></Link></li>
-              <li><Link href="/media"><a className="hover:text-white transition-colors">Film & TV</a></Link></li>
-              <li><Link href="/speaking"><a className="hover:text-white transition-colors">Speaking</a></Link></li>
+              <li><Link href="/biography"><span className="hover:text-white transition-colors cursor-pointer">Biography</span></Link></li>
+              <li><Link href="/books"><span className="hover:text-white transition-colors cursor-pointer">Books</span></Link></li>
+              <li><Link href="/media"><span className="hover:text-white transition-colors cursor-pointer">Film & TV</span></Link></li>
+              <li><Link href="/speaking"><span className="hover:text-white transition-colors cursor-pointer">Speaking</span></Link></li>
+              <li><Link href="/contact"><span className="hover:text-white transition-colors cursor-pointer">Contact</span></Link></li>
             </ul>
           </div>
 

@@ -56,14 +56,14 @@ export const books: Book[] = [
   {
     id: 3,
     title: "Prison Rules",
-    coverImage: "/images/pexels-photo-8108063.jpeg",
+    coverImage: "/images/prison-rules.jpg",
     description: "Essential survival strategies from someone who navigated the brutal reality of prison life and emerged stronger.",
     link: "#",
   },
   {
     id: 4,
     title: "Mafia International",
-    coverImage: "/images/pexels-photo-3052651.jpeg",
+    coverImage: "/images/mafia-international.jpg",
     description: "A global exposé of organized crime syndicates and their international operations, based on firsthand experience.",
     link: "#",
   },
@@ -73,7 +73,7 @@ export const movies: Movie[] = [
   {
     id: 1,
     title: "Fight Valley 2: Lockdown",
-    poster: "/images/pexels-photo-8108063.jpeg",
+    poster: "/images/prison-rules.jpg",
     description: "John Alite stars in this gritty action film about underground fighting rings and the path to redemption.",
     trailerLink: "#",
   },
